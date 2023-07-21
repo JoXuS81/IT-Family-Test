@@ -1,0 +1,713 @@
+.careers 
+{
+    display:flex;
+    .careers-content 
+    {
+        align-items:center;
+        background:url("../../../Images/Careers/Background.webp");
+        background-position:center;
+        background-repeat:no-repeat;
+        background-size:cover;
+        display:flex;
+        height:638px;
+        margin:200px 0 0 0;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        padding:0;
+        position:relative;
+        -webkit-background-size:cover;
+        width:100%;
+        .block 
+        {
+            align-items:center;
+            background:$careers;
+            display:flex;
+            font-size:0;
+            height:432px;
+            justify-content:center;
+            left:50%;
+            margin:0;
+            padding:0;
+            position:absolute;
+            width:34%;
+            .block-content 
+            {
+                margin:0;
+                padding:0;
+                width:87%;
+                .buttons 
+                {
+                    display:inline-block;
+                    margin:60px 0 0 0;
+                    padding:0;
+                    .button
+                    {
+                        align-items:center;
+                        background:$careers-button;
+                        border-radius:15px;
+                        cursor:pointer;
+                        display:flex;
+                        height:44px;
+                        justify-content:center;
+                        margin:0;
+                        padding:0;
+                        width:100px;
+                        .button-content 
+                        {
+                            h6 
+                            {
+                                float:right;
+                                margin:0 0 0 7px;
+                                padding:0;
+                            }
+                            img 
+                            {
+                                float:left;
+                                height:auto;
+                                position:relative;
+                                top:2px;
+                                width:12px;
+                            }
+                        }
+                    }
+                    .button-careers 
+                    {
+                        float:left;
+                    }
+                    .button-contact 
+                    {
+                        float:right;
+                        margin:0 0 0 20px;
+                    }
+                }
+                .small-text-one 
+                {
+                    margin:25px 0 0 0;
+                }
+                .small-text-two 
+                {
+                    margin:15px 0 0 0;
+                }
+            }
+        }
+        .large-img 
+        {
+            display:none;
+        }
+    }
+}
+
+
+@media (max-width:374px)
+{
+    .careers 
+    {
+        .careers-content 
+        {
+            background:initial;
+            display:block;
+            height:initial;
+            margin:131px 0 0 0;
+            .block 
+            {
+                display:block;
+                height:484px;
+                left:0;
+                position:relative;
+                width:100%;
+                .block-content 
+                {
+                    left:50%;
+                    position:absolute;
+                    top:50%;
+                    transform:translate(-50%, -50%);
+                    width:80%;
+                    .buttons 
+                    {
+                        margin:24px 0 0 0;
+                        .button
+                        {
+                            border-radius:10px;
+                        }
+                        .button-careers 
+                        {
+                            float:initial;
+                        }
+                        .button-contact 
+                        {
+                            margin:10px 0 0 0;
+                        }
+                    }
+                    .large-text 
+                    {
+                        h2 
+                        {
+                            font-size:36px;
+                        }
+                    }
+                    .small-text-one 
+                    {
+                        margin:18px 0 0 0;
+                    }
+                    .small-text-two 
+                    {
+                        margin:11px 0 0 0;
+                    }
+                }
+            }
+            .large-img 
+            {
+                display:block;
+                margin:0;
+                padding:0;
+            }
+        }
+    }
+}
+
+
+@media (min-width:375px) and (max-width:576px)
+{
+    .careers 
+    {
+        .careers-content 
+        {
+            background:initial;
+            display:block;
+            height:initial;
+            margin:131px 0 0 0;
+            .block 
+            {
+                display:block;
+                height:440px;
+                left:0;
+                position:relative;
+                width:100%;
+                .block-content 
+                {
+                    left:50%;
+                    position:absolute;
+                    top:50%;
+                    transform:translate(-50%, -50%);
+                    width:80%;
+                    .buttons 
+                    {
+                        margin:24px 0 0 0;
+                        .button
+                        {
+                            border-radius:10px;
+                        }
+                        .button-contact 
+                        {
+                            margin:0 0 0 18px;
+                        }
+                    }
+                    .large-text 
+                    {
+                        h2 
+                        {
+                            font-size:36px;
+                        }
+                    }
+                    .small-text-one 
+                    {
+                        margin:18px 0 0 0;
+                    }
+                    .small-text-two 
+                    {
+                        margin:11px 0 0 0;
+                    }
+                }
+            }
+            .large-img 
+            {
+                display:block;
+                margin:0;
+                padding:0;
+            }
+        }
+    }
+}
+
+
+@media (min-width:577px) and (max-width:767px)
+{
+    .careers 
+    {
+        .careers-content 
+        {
+            background:initial;
+            display:block;
+            height:initial;
+            margin:146px 0 0 0;
+            .block 
+            {
+                display:block;
+                height:440px;
+                left:0;
+                position:relative;
+                width:100%;
+                .block-content 
+                {
+                    left:50%;
+                    position:absolute;
+                    top:50%;
+                    transform:translate(-50%, -50%);
+                    width:80%;
+                    .buttons 
+                    {
+                        margin:27px 0 0 0;
+                        .button
+                        {
+                            border-radius:11px;
+                        }
+                        .button-contact 
+                        {
+                            margin:0 0 0 18px;
+                        }
+                    }
+                    .large-text 
+                    {
+                        h2 
+                        {
+                            font-size:40px;
+                        }
+                    }
+                    .small-text-one 
+                    {
+                        margin:20px 0 0 0;
+                    }
+                    .small-text-two 
+                    {
+                        margin:12px 0 0 0;
+                    }
+                }
+            }
+            .large-img 
+            {
+                display:block;
+                margin:0;
+                padding:0;
+            }
+        }
+    }
+}
+
+
+@media (min-width:768px) and (max-width:1199px)
+{
+    .careers 
+    {
+        .careers-content 
+        {
+            background:initial;
+            display:block;
+            height:initial;
+            margin:162px 0 0 0;
+            .block 
+            {
+                display:block;
+                height:400px;
+                left:0;
+                position:relative;
+                width:100%;
+                .block-content 
+                {
+                    left:50%;
+                    position:absolute;
+                    top:50%;
+                    transform:translate(-50%, -50%);
+                    width:initial;
+                    .buttons 
+                    {
+                        margin:30px 0 0 0;
+                        .button
+                        {
+                            border-radius:12px;
+                        }
+                        .button-contact 
+                        {
+                            margin:0 0 0 18px;
+                        }
+                    }
+                    .large-text 
+                    {
+                        h2 
+                        {
+                            font-size:45px;
+                        }
+                    }
+                    .small-text-one 
+                    {
+                        margin:20px 0 0 0;
+                    }
+                    .small-text-two 
+                    {
+                        margin:12px 0 0 0;
+                    }
+                }
+            }
+            .large-img 
+            {
+                display:block;
+                margin:0;
+                padding:0;
+            }
+        }
+    }
+}
+
+
+@media (min-width:1200px) and (max-width:1249px)
+{
+    .careers 
+    {
+        .careers-content 
+        {
+            height:574px;
+            margin:180px 0 0 0;
+            .block 
+            {
+                height:389px;
+                width:41%;
+                .block-content 
+                {
+                    .buttons 
+                    {
+                        margin:54px 0 0 0;
+                        .button
+                        {
+                            border-radius:13px;
+                            height:44px;
+                            width:100px;
+                            .button-content 
+                            {
+                                h6 
+                                {
+                                    margin:0 0 0 7px;
+                                }
+                                img 
+                                {
+                                    top:2px;
+                                    width:12px;
+                                }
+                            }
+                        }
+                        .button-contact 
+                        {
+                            margin:0 0 0 18px;
+                        }
+                    }
+                    .large-text 
+                    {
+                        h2 
+                        {
+                            font-size:50px;
+                        }
+                    }
+                    .small-text-one 
+                    {
+                        margin:22px 0 0 0;
+                    }
+                    .small-text-two 
+                    {
+                        margin:13px 0 0 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:1250px) and (max-width:1399px)
+{
+    .careers 
+    {
+        .careers-content 
+        {
+            height:574px;
+            margin:180px 0 0 0;
+            .block 
+            {
+                height:389px;
+                width:37%;
+                .block-content 
+                {
+                    .buttons 
+                    {
+                        margin:54px 0 0 0;
+                        .button
+                        {
+                            border-radius:13px;
+                            height:44px;
+                            width:100px;
+                            .button-content 
+                            {
+                                h6 
+                                {
+                                    margin:0 0 0 7px;
+                                }
+                                img 
+                                {
+                                    top:2px;
+                                    width:12px;
+                                }
+                            }
+                        }
+                        .button-contact 
+                        {
+                            margin:0 0 0 18px;
+                        }
+                    }
+                    .large-text 
+                    {
+                        h2 
+                        {
+                            font-size:50px;
+                        }
+                    }
+                    .small-text-one 
+                    {
+                        margin:22px 0 0 0;
+                    }
+                    .small-text-two 
+                    {
+                        margin:13px 0 0 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:1400px) and (max-width:1499px)
+{
+    .careers 
+    {
+        .careers-content 
+        {
+            .block  
+            {
+                width:37%;
+            }
+        }
+    }
+}
+
+
+@media (min-width:1921px) and (max-width:2400px)
+{
+    .careers 
+    {
+        .careers-content 
+        {
+            height:797px;
+            margin:250px 0 0 0;
+            .block 
+            {
+                height:540px;
+                .block-content 
+                {
+                    .buttons 
+                    {
+                        margin:75px 0 0 0;
+                        .button
+                        {
+                            border-radius:18px;
+                            height:55px;
+                            width:125px;
+                            .button-content 
+                            {
+                                h6 
+                                {
+                                    margin:0 0 0 8px;
+                                }
+                                img 
+                                {
+                                    top:2.5px;
+                                    width:15px;
+                                }
+                            }
+                        }
+                        .button-contact 
+                        {
+                            margin:0 0 0 25px;
+                        }
+                    }
+                    .small-text-one 
+                    {
+                        margin:31px 0 0 0;
+                    }
+                    .small-text-two 
+                    {
+                        margin:18px 0 0 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:2401px) and (max-width:3000px)
+{
+    .careers 
+    {
+        .careers-content 
+        {
+            height:996px;
+            margin:312px 0 0 0;
+            .block 
+            {
+                height:675px;
+                .block-content 
+                {
+                    .buttons 
+                    {
+                        margin:93px 0 0 0;
+                        .button
+                        {
+                            border-radius:22px;
+                            height:68px;
+                            width:156px;
+                            .button-content 
+                            {
+                                h6 
+                                {
+                                    margin:0 0 0 10px;
+                                }
+                                img 
+                                {
+                                    top:3.1px;
+                                    width:18px;
+                                }
+                            }
+                        }
+                        .button-contact 
+                        {
+                            margin:0 0 0 31px;
+                        }
+                    }
+                    .small-text-one 
+                    {
+                        margin:38px 0 0 0;
+                    }
+                    .small-text-two 
+                    {
+                        margin:22px 0 0 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:3001px) and (max-width:3750px)
+{
+    .careers 
+    {
+        .careers-content 
+        {
+            height:1245px;
+            margin:390px 0 0 0;
+            .block 
+            {
+                height:844px;
+                .block-content 
+                {
+                    .buttons 
+                    {
+                        margin:116px 0 0 0;
+                        .button
+                        {
+                            border-radius:27px;
+                            height:85px;
+                            width:195px;
+                            .button-content 
+                            {
+                                h6 
+                                {
+                                    margin:0 0 0 12px;
+                                }
+                                img 
+                                {
+                                    top:3.8px;
+                                    width:22px;
+                                }
+                            }
+                        }
+                        .button-contact 
+                        {
+                            margin:0 0 0 38px;
+                        }
+                    }
+                    .small-text-one 
+                    {
+                        margin:47px 0 0 0;
+                    }
+                    .small-text-two 
+                    {
+                        margin:27px 0 0 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:3751px)
+{
+    .careers 
+    {
+        .careers-content 
+        {
+            height:1556px;
+            margin:488px 0 0 0;
+            .block 
+            {
+                height:1055px;
+                .block-content 
+                {
+                    .buttons 
+                    {
+                        margin:145px 0 0 0;
+                        .button
+                        {
+                            border-radius:33px;
+                            height:106px;
+                            width:243px;
+                            .button-content 
+                            {
+                                h6 
+                                {
+                                    margin:0 0 0 15px;
+                                }
+                                img 
+                                {
+                                    top:4.7px;
+                                    width:27px;
+                                }
+                            }
+                        }
+                        .button-contact 
+                        {
+                            margin:0 0 0 47px;
+                        }
+                    }
+                    .small-text-one 
+                    {
+                        margin:58px 0 0 0;
+                    }
+                    .small-text-two 
+                    {
+                        margin:33px 0 0 0;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,1014 @@
+header 
+{
+    .bottom-area 
+    {
+        background:url("../../../Images/Header/Header-Background.webp");
+        background-position:center;
+        background-repeat:no-repeat;
+        background-size:cover;
+        display:flex;
+        justify-content:center;
+        margin:0;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        padding:0;
+        position:relative;
+        -webkit-background-size:cover;
+        width:100%;
+        .bottom-area-content 
+        {
+            width:69%;
+            .heading 
+            {
+                padding:120px 0 0 0;
+            }
+            .search 
+            {
+                display:grid;
+                grid-template-columns:70% 20.5% 9.5%;
+                margin:40px 0 0 0;
+                .filters 
+                {
+                    align-items:center;
+                    border:1px solid $search;
+                    border-radius:50px;
+                    cursor:pointer;
+                    display:flex;
+                    height:41px;
+                    justify-content:center;
+                    margin:0 15% 0 15%;
+                    .filters-content 
+                    {
+                        h6 
+                        {
+                            float:right;
+                            font-family:roboto-regular;
+                            margin:0 0 0 5px;
+                            padding:0;
+                        }
+                        img 
+                        {
+                            float:left;
+                        }
+                    }
+                }
+                form 
+                {
+                    display:inline;
+                    .search-field 
+                    {
+                        margin:0;
+                        padding:0;
+                        position:relative;
+                        width:100%;
+                        .field 
+                        {
+                            background:$navbar;
+                            border:1px solid $search;
+                            border-radius:50px;
+                            color:$white;
+                            font-family:roboto-regular;
+                            font-size:16px;
+                            height:41px;
+                            margin:0;
+                            outline:none;
+                            padding-left:45px;
+                            width:100%;
+                        }
+                        img 
+                        {
+                            height:auto;
+                            left:25px;
+                            position:absolute;
+                            top:50%;
+                            transform:translate(-0%, -50%);
+                            width:12px;
+                        }
+                        ::-moz-placeholder 
+                        {
+                            color:$white;
+                            opacity:1;
+                        }
+                        ::-webkit-input-placeholder 
+                        {
+                            color:$white;
+                            opacity:1;
+                        }
+                    }
+                }
+                .sort 
+                {
+                    align-items:center;
+                    display:flex;
+                    justify-content:end;
+                    margin:0;
+                    padding:0;
+                    .sort-content 
+                    {
+                        align-items:center;
+                        display:flex;
+                        margin:0;
+                        padding:0;
+                        h6 
+                        {
+                            float:left;
+                            margin:0 5px 0 0;
+                            padding:0;
+                            span 
+                            {
+                                color:$header-sort;
+                            }
+                        }
+                        img 
+                        {
+                            cursor:pointer;
+                            margin:0;
+                            padding:0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .mobile-navbar 
+    {
+        display:none;
+    }
+    .navbar 
+    {
+        background:$navbar;
+        display:flex;
+        height:108px;
+        justify-content:center;
+        width:100%;
+        .navbar-content 
+        {
+            align-items:center;
+            display:grid;
+            grid-template-columns:15% 70% 15%;
+            //height:108px;
+            position:relative;
+            width:69%;
+            .language 
+            {
+                align-items:start;
+                bottom:10px;
+                display:flex;
+                justify-content:flex-end;
+                position:relative;
+                .ellipse 
+                {
+                    align-items:center;
+                    background:$language;
+                    border-radius:50%;
+                    cursor:pointer;
+                    display:flex;
+                    height:40px;
+                    justify-content:center;
+                    width:40px;
+                    h6 
+                    {
+                        margin:0;
+                        padding:0;
+                    }
+                }
+            }
+            .logo 
+            {
+                img 
+                {
+                    height:auto;
+                    width:101px;
+                }
+            }
+            .nav 
+            {
+                display:flex;
+                justify-content:flex-end;
+                padding:0;
+                .block
+                {
+                    display:inline;
+                    .bottom 
+                    {
+                        margin:10px 0 0 0;
+                    }
+                    .nav-option 
+                    {
+                        a 
+                        {
+                            padding:0;
+                            text-decoration:none;
+                            img 
+                            {
+                                float:left;
+                                height:auto;
+                                width:12px;
+                            }
+                            .text 
+                            {
+                                align-items:center;
+                                display:flex;
+                                height:100%;
+                                margin:0 0 0 7px;
+                                padding:0;
+                                position:relative;
+                                top:1px;
+                                h6 
+                                {
+                                    float:right;
+                                    font-family:paralucent;
+                                    margin:0;
+                                    padding:0;
+                                }
+                            }
+                        }
+                    }
+                }
+                .block-margin 
+                {
+                    margin:0 0 0 75px;
+                }
+            }
+        }
+    }
+}
+
+
+.change-menu 
+{
+    .mobile-navbar 
+    {
+        right:0;
+        transition:right 1s;
+    }
+}
+
+
+// Header Change Menu, Header Line Bottom
+.change-menu .line-bottom {
+    transform:rotateZ(405deg) translate(-4px, -3px);
+}
+// Header Change Menu, Header Line Middle
+.change-menu .line-middle {
+    opacity:0;
+}
+// Header Change Menu, Header Line Top
+.change-menu .line-top {
+    transform:rotateZ(-405deg) translate(-4px, 3px);
+}
+
+
+@media (max-width:374px)
+{
+    header 
+    {
+        .bottom-area 
+        {
+            .bottom-area-content 
+            {
+                width:92%;
+                .heading 
+                {
+                    padding:50px 0 0 0;
+                    h2 
+                    {
+                        font-size:45px;
+                        line-height:1;
+                    }
+                }
+                .search 
+                {
+                    grid-template-columns:initial;
+                    margin:25px 0 0 0;
+                    .filters 
+                    {
+                        grid-column:1/span 1;
+                        grid-row:2;
+                        margin:20px 0 35px 0;
+                        width:100px;
+                    }
+                    form 
+                    {
+                        grid-column:1/span 3;
+                        grid-row:1;
+                    }
+                    .sort 
+                    {
+                        grid-column:1/span 1;
+                        grid-row:3;
+                        margin:0 0 25px 0;
+                    }
+                }
+            }
+        }
+        .mobile-navbar 
+        {
+            background:$mobile-navbar;
+            display:block;
+            height:100vh;
+            position:fixed;
+            right:-100vw;
+            top:0;
+            width:100%;
+            z-index:2;
+            .mobile-navbar-content 
+            {
+                align-items:center;
+                display:flex;
+                height:100%;
+                justify-content:center;
+                ul 
+                {
+                    display:inline-block;
+                    list-style-type:none;
+                    margin:0;
+                    padding:0;
+                    li 
+                    {
+                        display:flex;
+                        justify-content:center;
+                        margin:25px;
+                        a 
+                        {
+                            color:$white;
+                            display:inline-block;
+                            font-family:paralucent;
+                            font-size:16px;
+                            text-align:center;
+                            text-decoration:none;
+                        }
+                    }
+                }
+            }
+        }
+        .navbar 
+        {
+            .navbar-content 
+            {
+                grid-template-columns:auto auto;
+                width:92%;
+                .language 
+                {
+                    display:none;
+                }
+                .mobile-menu 
+                {
+                    display:flex;
+                    justify-content:flex-end;
+                    position:relative;
+                    z-index:3;
+                    .mobile-menu-content 
+                    {
+                        .mobile-menu-ellipse 
+                        {
+                            align-items:center;
+                            background:$header-mobile-menu;
+                            border-radius:50%;
+                            cursor:pointer;
+                            display:flex;
+                            height:50px;
+                            justify-content:center;
+                            position:relative;
+                            width:50px;
+                            .lines 
+                            {
+                                .line 
+                                {
+                                    background:$header-mobile-menu-lines;
+                                    height:2px;
+                                    margin:2px;
+                                    width:15px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .nav 
+                {
+                    display:none;
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:375px) and (max-width:1199px)
+{
+    header 
+    {
+        .bottom-area 
+        {
+            .bottom-area-content 
+            {
+                width:92%;
+                .heading 
+                {
+                    padding:50px 0 0 0;
+                    h2 
+                    {
+                        font-size:45px;
+                        line-height:1;
+                    }
+                }
+                .search 
+                {
+                    grid-template-columns:initial;
+                    margin:25px 0 0 0;
+                    .filters 
+                    {
+                        grid-column:1/span 1;
+                        grid-row:2;
+                        margin:20px 0 35px 0;
+                    }
+                    form 
+                    {
+                        grid-column:1/span 3;
+                        grid-row:1;
+                    }
+                    .sort 
+                    {
+                        grid-column:3/span 1;
+                        grid-row:2;
+                        margin:20px 0 25px 0;
+                    }
+                }
+            }
+        }
+        .mobile-navbar 
+        {
+            background:$mobile-navbar;
+            display:block;
+            height:100vh;
+            position:fixed;
+            right:-100vw;
+            top:0;
+            width:100%;
+            z-index:2;
+            .mobile-navbar-content 
+            {
+                align-items:center;
+                display:flex;
+                height:100%;
+                justify-content:center;
+                ul 
+                {
+                    display:inline-block;
+                    list-style-type:none;
+                    margin:0;
+                    padding:0;
+                    li 
+                    {
+                        display:flex;
+                        justify-content:center;
+                        margin:25px;
+                        a 
+                        {
+                            color:$white;
+                            display:inline-block;
+                            font-family:paralucent;
+                            font-size:16px;
+                            text-align:center;
+                            text-decoration:none;
+                        }
+                    }
+                }
+            }
+        }
+        .navbar 
+        {
+            .navbar-content 
+            {
+                grid-template-columns:auto auto;
+                width:92%;
+                .language 
+                {
+                    display:none;
+                }
+                .mobile-menu 
+                {
+                    display:flex;
+                    justify-content:flex-end;
+                    position:relative;
+                    z-index:3;
+                    .mobile-menu-content 
+                    {
+                        .mobile-menu-ellipse 
+                        {
+                            align-items:center;
+                            background:$header-mobile-menu;
+                            border-radius:50%;
+                            cursor:pointer;
+                            display:flex;
+                            height:50px;
+                            justify-content:center;
+                            position:relative;
+                            width:50px;
+                            .lines 
+                            {
+                                .line 
+                                {
+                                    background:$header-mobile-menu-lines;
+                                    height:2px;
+                                    margin:2px;
+                                    width:15px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .nav 
+                {
+                    display:none;
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:1200px) and (max-width:1499px)
+{
+    header 
+    {
+        .navbar 
+        {
+            .navbar-content 
+            {
+                .nav 
+                {
+                    .block-margin 
+                    {
+                        margin:0 0 0 25px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:1921px) and (max-width:2400px)
+{
+    header 
+    {
+        .bottom-area 
+        {
+            .bottom-area-content 
+            {
+                .heading 
+                {
+                    padding:150px 0 0 0;
+                }
+                .search 
+                {
+                    margin:50px 0 0 0;
+                    .filters 
+                    {
+                        border:1.2px solid $search;
+                        border-radius:62px;
+                        height:51px;
+                        .filters-content 
+                        {
+                            h6 
+                            {
+                                margin:0 0 0 6.2px;
+                            }
+                        }
+                    }
+                    form 
+                    {
+                        .search-field 
+                        {
+                            .field 
+                            {
+                                border:1.2px solid $search;
+                                border-radius:62px;
+                                font-size:20px;
+                                height:51px;
+                                padding-left:56px;
+                            }
+                            img 
+                            {
+                                left:31px;
+                                width:15px;
+                            }
+                        }
+                    }
+                    .sort 
+                    {
+                        .sort-content 
+                        {
+                            h6 
+                            {
+                                margin:0 6.2px 0 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .navbar 
+        {
+            height:135px;
+            .navbar-content 
+            {
+                .language 
+                {
+                    bottom:12px;
+                    .ellipse 
+                    {
+                        height:50px;
+                        width:50px;
+                    }
+                }
+                .logo 
+                {
+                    img 
+                    {
+                        height:auto;
+                        width:126px;
+                    }
+                }
+                .nav 
+                {
+                    .block
+                    {
+                        .bottom 
+                        {
+                            margin:12px 0 0 0;
+                        }
+                        .nav-option 
+                        {
+                            a 
+                            {
+                                img 
+                                {
+                                    width:15px;
+                                }
+                                .text 
+                                {
+                                    margin:0 0 0 8px;
+                                    top:1.2px;
+                                }
+                            }
+                        }
+                    }
+                    .block-margin 
+                    {
+                        margin:0 0 0 93px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:2401px) and (max-width:3000px)
+{
+    header 
+    {
+        .bottom-area 
+        {
+            .bottom-area-content 
+            {
+                .heading 
+                {
+                    padding:187px 0 0 0;
+                }
+                .search 
+                {
+                    margin:62px 0 0 0;
+                    .filters 
+                    {
+                        border:1.5px solid $search;
+                        border-radius:77px;
+                        height:63px;
+                        .filters-content 
+                        {
+                            h6 
+                            {
+                                margin:0 0 0 7.7px;
+                            }
+                        }
+                    }
+                    form 
+                    {
+                        .search-field 
+                        {
+                            .field 
+                            {
+                                border:1.5px solid $search;
+                                border-radius:77px;
+                                font-size:25px;
+                                height:63px;
+                                padding-left:70px;
+                            }
+                            img 
+                            {
+                                left:38px;
+                                width:18px;
+                            }
+                        }
+                    }
+                    .sort 
+                    {
+                        .sort-content 
+                        {
+                            h6 
+                            {
+                                margin:0 7.7px 0 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .navbar 
+        {
+            height:168px;
+            .navbar-content 
+            {
+                .language 
+                {
+                    bottom:15px;
+                    .ellipse 
+                    {
+                        height:62px;
+                        width:62px;
+                    }
+                }
+                .logo 
+                {
+                    img 
+                    {
+                        width:157px;
+                    }
+                }
+                .nav 
+                {
+                    .block
+                    {
+                        .bottom 
+                        {
+                            margin:15px 0 0 0;
+                        }
+                        .nav-option 
+                        {
+                            a 
+                            {
+                                img 
+                                {
+                                    width:18px;
+                                }
+                                .text 
+                                {
+                                    margin:0 0 0 10px;
+                                    top:1.5px;
+                                }
+                            }
+                        }
+                    }
+                    .block-margin 
+                    {
+                        margin:0 0 0 116px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:3001px) and (max-width:3750px)
+{
+    header 
+    {
+        .bottom-area 
+        {
+            .bottom-area-content 
+            {
+                .heading 
+                {
+                    padding:233px 0 0 0;
+                }
+                .search 
+                {
+                    margin:77px 0 0 0;
+                    .filters 
+                    {
+                        border:1.8px solid $search;
+                        border-radius:96px;
+                        height:78px;
+                        .filters-content 
+                        {
+                            h6 
+                            {
+                                margin:0 0 0 9.6px;
+                            }
+                        }
+                    }
+                    form 
+                    {
+                        .search-field 
+                        {
+                            .field 
+                            {
+                                border:1.8px solid $search;
+                                border-radius:96px;
+                                font-size:31px;
+                                height:78px;
+                                padding-left:87px;
+                            }
+                            img 
+                            {
+                                left:47px;
+                                width:22px;
+                            }
+                        }
+                    }
+                    .sort 
+                    {
+                        .sort-content 
+                        {
+                            h6 
+                            {
+                                margin:0 9.6px 0 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .navbar 
+        {
+            height:210px;
+            .navbar-content 
+            {
+                .language 
+                {
+                    bottom:18px;
+                    .ellipse 
+                    {
+                        height:77px;
+                        width:77px;
+                    }
+                }
+                .logo 
+                {
+                    img 
+                    {
+                        width:196px;
+                    }
+                }
+                .nav 
+                {
+                    .block
+                    {
+                        .bottom 
+                        {
+                            margin:18px 0 0 0;
+                        }
+                        .nav-option 
+                        {
+                            a 
+                            {
+                                img 
+                                {
+                                    width:22px;
+                                }
+                                .text 
+                                {
+                                    margin:0 0 0 12px;
+                                    top:1.8px;
+                                }
+                            }
+                        }
+                    }
+                    .block-margin 
+                    {
+                        margin:0 0 0 145px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:3751px)
+{
+    header 
+    {
+        .bottom-area 
+        {
+            .bottom-area-content 
+            {
+                .heading 
+                {
+                    padding:291px 0 0 0;
+                }
+                .search 
+                {
+                    margin:96px 0 0 0;
+                    .filters 
+                    {
+                        border:2.2px solid $search;
+                        border-radius:120px;
+                        height:97px;
+                        .filters-content 
+                        {
+                            h6 
+                            {
+                                margin:0 0 0 12px;
+                            }
+                        }
+                    }
+                    form 
+                    {
+                        .search-field 
+                        {
+                            .field 
+                            {
+                                border:2.2px solid $search;
+                                border-radius:120px;
+                                font-size:38px;
+                                height:97px;
+                                padding-left:108px;
+                            }
+                            img 
+                            {
+                                left:58px;
+                                width:27px;
+                            }
+                        }
+                    }
+                    .sort 
+                    {
+                        .sort-content 
+                        {
+                            h6 
+                            {
+                                margin:0 12px 0 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .navbar 
+        {
+            height:262px;
+            .navbar-content 
+            {
+                .language 
+                {
+                    bottom:22px;
+                    .ellipse 
+                    {
+                        height:96px;
+                        width:96px;
+                    }
+                }
+                .logo 
+                {
+                    img 
+                    {
+                        width:245px;
+                    }
+                }
+                .nav 
+                {
+                    .block
+                    {
+                        .bottom 
+                        {
+                            margin:22px 0 0 0;
+                        }
+                        .nav-option 
+                        {
+                            a 
+                            {
+                                img 
+                                {
+                                    width:27px;
+                                }
+                                .text 
+                                {
+                                    margin:0 0 0 15px;
+                                    top:2.2px;
+                                }
+                            }
+                        }
+                    }
+                    .block-margin 
+                    {
+                        margin:0 0 0 181px;
+                    }
+                }
+            }
+        }
+    }
+}

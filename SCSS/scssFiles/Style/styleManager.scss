@@ -1,0 +1,274 @@
+/* 
+Table of Contents
+*/
+
+
+// Fonts
+// Roboto Regular
+@font-face 
+{
+    font-family:"roboto-regular";
+    src:url("../../../Fonts/Roboto/Roboto-Regular.ttf");
+}
+// Paralucent
+@font-face 
+{
+    font-family:"paralucent";
+    src:url("https://use.typekit.net/af/70bbaf/00000000000000007735f0d2/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") 
+    format("woff2"),
+    url("https://use.typekit.net/af/70bbaf/00000000000000007735f0d2/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") 
+    format("woff"),
+    url("https://use.typekit.net/af/70bbaf/00000000000000007735f0d2/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") 
+    format("opentype");
+    font-display:auto;
+    font-style:normal;
+    font-weight:500;
+    font-stretch:normal;
+}
+
+
+// Mixins
+@mixin a 
+{
+    align-items:center;
+    display:flex;
+    margin:0;
+}
+@mixin a-2400 
+{
+    font-size:20px;
+}
+@mixin a-3000 
+{
+    font-size:25px;
+}
+@mixin a-3750 
+{
+    font-size:31px;
+}
+@mixin a-large
+{
+    font-size:38px;
+}
+@mixin h2
+{
+    color:$white;
+    font-family:paralucent;
+    font-size:56px;
+}
+@mixin h2-2400
+{
+    font-size:70px;
+}
+@mixin h2-3000
+{
+    font-size:87px;
+}
+@mixin h2-3750
+{
+    font-size:108px;
+}
+@mixin h2-large
+{
+    font-size:135px;
+}
+@mixin h4 
+{
+    color:$results;
+    font-family:paralucent;
+}
+@mixin h4-2400
+{
+    font-size:30px;
+}
+@mixin h4-3000
+{
+    font-size:37px;
+}
+@mixin h4-3750
+{
+    font-size:46px;
+}
+@mixin h4-large
+{
+    font-size:57px;
+}
+@mixin h6
+{
+    color:$white;
+    font-family:paralucent;
+}
+@mixin h6-2400 
+{
+    font-size:20px;
+}
+@mixin h6-3000 
+{
+    font-size:25px;
+}
+@mixin h6-3750 
+{
+    font-size:31px;
+}
+@mixin h6-large
+{
+    font-size:38px;
+}
+
+
+// Variables
+$body:#fefefe;
+$careers:#122a24;
+$careers-button:#1d4138;
+$footer-info-legal:#bebebe;
+$footer-line:#e8e8e8;
+$footer-navbar:#151515;
+$header-mobile-menu:#1d4138;
+$header-mobile-menu-lines:#8d9f9b;
+$header-sort:#bebebe;
+$language:#415450;
+$language-ellipse:#e8e8e8;
+$language-footer:#151515;
+$mobile-navbar:#313131;
+$navbar:#122a24;
+$project-line:#e8e8e8;
+$project-number:#1cb455;
+$project-text:#151515;
+$results:#bebebe;
+$search:#1d4138;
+$white:#ffffff;
+
+
+// Margins and Paddings
+* 
+{
+    margin:0;
+    padding:0;
+}
+
+
+// Body
+body 
+{
+    background:$body;
+    margin:0;
+    overflow-x:hidden;
+    padding:0;
+    // Imports
+    @import "../Content/mainContainer";
+    @import url("https://p.typekit.net/p.css?s=1&k=wwy4bxt&ht=tk&f=27989.27998.28028.28056&a=54488276&app=typekit&e=css");
+    // Mixins
+    a 
+    {
+        @include a;
+    }
+    h2 
+    {
+        @include h2;
+    }
+    h4
+    {
+        @include h4;
+    }
+    h6
+    {
+        @include h6;
+    }
+}
+
+
+// Responsive Design
+@media (min-width:1921px) and (max-width:2400px)
+{
+    body 
+    {
+        a
+        {
+            @include a-2400;
+        }
+        h2 
+        {
+            @include h2-2400;
+        }
+        h4 
+        {
+            @include h4-2400;
+        }
+        h6
+        {
+            @include h6-2400;
+        }
+    }
+}
+
+
+@media (min-width:2401px) and (max-width:3000px)
+{
+    body 
+    {
+        a
+        {
+            @include a-3000;
+        }
+        h2 
+        {
+            @include h2-3000;
+        }
+        h4 
+        {
+            @include h4-3000;
+        }
+        h6
+        {
+            @include h6-3000;
+        }
+    }
+}
+
+
+@media (min-width:3001px) and (max-width:3750px)
+{
+    body 
+    {
+        a
+        {
+            @include a-3750;
+        }
+        h2 
+        {
+            @include h2-3750;
+        }
+        h4 
+        {
+            @include h4-3750;
+        }
+        h6
+        {
+            @include h6-3750;
+        }
+    }
+}
+
+
+@media (min-width:3751px)
+{
+    body 
+    {
+        a
+        {
+            @include a-large;
+        }
+        h2 
+        {
+            @include h2-large;
+        }
+        h4 
+        {
+            @include h4-large;
+        }
+        h6
+        {
+            @include h6-large;
+        }
+    }
+}

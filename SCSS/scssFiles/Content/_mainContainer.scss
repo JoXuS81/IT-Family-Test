@@ -1,0 +1,20 @@
+/*
+Table of Contents
+    Main container
+*/
+
+
+// Main container
+.main-container
+{
+    // Imports
+    @import "../Sections/careers";
+    @import "../Sections/footer";
+    @import "../Sections/header";
+    @import "../Sections/results";
+
+
+    margin:0;
+    padding:0;
+    width:100%;
+}

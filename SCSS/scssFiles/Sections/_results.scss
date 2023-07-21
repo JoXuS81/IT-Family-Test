@@ -1,0 +1,1055 @@
+.results 
+{
+    display:flex;
+    justify-content:center;
+    width:100%;
+    .results-content 
+    {
+        margin:100px 0 0 0;
+        padding:0;
+        width:69%;
+        .more 
+        {
+            display:flex;
+            justify-content:center;
+            margin:75px 0 0 0;
+            padding:0;
+            .button 
+            {
+                align-items:center;
+                background:$project-line;
+                border-radius:12px;
+                cursor:pointer;
+                display:flex;
+                height:50px;
+                justify-content:center;
+                margin:0;
+                padding:0;
+                width:125px;
+                .button-content 
+                {
+                    align-items:center;
+                    display:inline-flex;
+                    font-size:0;
+                    margin:0;
+                    padding:0;
+                    h6 
+                    {
+                        color:$project-text;
+                        display:inline-block;
+                        margin:0 0 0 5px;
+                        padding:0;
+                        position:relative;
+                        top:1px;
+                    }
+                    img 
+                    {
+                        float:left;
+                        font-size:0;
+                        height:auto;
+                        margin:0;
+                        padding:0;
+                        width:12px;
+                    }
+                }
+            }
+        }
+        .projects 
+        {
+            column-gap:15px;
+            display:grid;
+            grid-template-columns:auto auto;
+            margin:50px 0 0 0;
+            row-gap:15px;
+            width:100%;
+            .project 
+            {
+                align-items:center;
+                border:1px solid $project-line;
+                display:flex;
+                justify-content:center;
+                .project-content 
+                {
+                    margin:25px;
+                    .icons-and-texts 
+                    {
+                        margin:20px 0 0 0;
+                        .country-icon-text 
+                        {
+                            align-items:center;
+                            display:flex;
+                            padding:0 0 0 20px;
+                            .country-icon 
+                            {
+                                float:left;
+                                img 
+                                {
+                                    height:auto;
+                                    width:29px;
+                                }
+                            }
+                            .country-text 
+                            {
+                                display:inline-block;
+                                margin:0 0 0 7px;
+                                h6 
+                                {
+                                    color:$project-text;
+                                    margin:0;
+                                    padding:0;
+                                }
+                            }
+                        }
+                        .icon-and-text 
+                        {
+                            align-items:center;
+                            display:flex;
+                            float:left;
+                            .icon 
+                            {
+                                float:left;
+                                img 
+                                {
+                                    height:auto;
+                                    width:32px;
+                                }
+                            }
+                            .icon-text 
+                            {
+                                margin:0 0 0 7px;
+                                h6 
+                                {
+                                    color:$project-text;
+                                    margin:0;
+                                    padding:0;
+                                }
+                            }
+                        }
+                    }
+                    .line 
+                    {
+                        margin:20px 0 0 0;
+                        width:100%;
+                        .line-content 
+                        {
+                            background:$project-line;
+                            height:1px;
+                            width:100%;
+                        }
+                    }
+                    .line-margin 
+                    {
+                        margin:48px 0 0 0;
+                    }
+                    .number 
+                    {
+                        h6 
+                        {
+                            color:$project-number;
+                            font-family:roboto-regular;
+                            margin:0;
+                            padding:0;
+                        }
+                    }
+                    .text 
+                    {
+                        h4 
+                        {
+                            color:$project-text;
+                            margin:10px 0 0 0;
+                            padding:0;
+                        }
+                    }
+                }
+            }
+        }
+        .results-number 
+        {
+            margin:0;
+            padding:0;
+            h4 
+            {
+                margin:0;
+                padding:0;
+            }
+        }
+    }
+}
+
+
+@media (max-width:449px)
+{
+    .results 
+    {
+        .results-content 
+        {
+            margin:73px 0 0 0;
+            width:92%;
+            .more 
+            {
+                margin:54px 0 0 0;
+                .button 
+                {
+                    border-radius:9px;
+                    height:40px;
+                    width:100px;
+                    .button-content 
+                    {
+                        h6 
+                        {
+                            margin:0 0 0 3.6px;
+                            top:0.73px;
+                        }
+                        img 
+                        {
+                            width:10px;
+                        }
+                    }
+                }
+            }
+            .projects 
+            {
+                grid-template-columns:auto;
+                margin:36px 0 0 0;
+                row-gap:12px;
+                .project 
+                {
+                    border:0.73px solid $project-line;
+                    .project-content 
+                    {
+                        margin:18px;
+                        width:100%;
+                        .icons-and-texts 
+                        {
+                            margin:14px 0 0 0;
+                            .country-icon-text 
+                            {
+                                float:initial;
+                                margin:5px 0 0 0;
+                                padding:0;
+                                .country-icon 
+                                {
+                                    img 
+                                    {
+                                        width:21px;
+                                    }
+                                }
+                                .country-text 
+                                {
+                                    margin:0 0 0 5.1px;
+                                }
+                            }
+                            .icon-and-text 
+                            {
+                                float:initial;
+                                .icon 
+                                {
+                                    img 
+                                    {
+                                        width:23px;
+                                    }
+                                }
+                                .icon-text 
+                                {
+                                    margin:0 0 0 5.1px;
+                                }
+                            }
+                        }
+                        .line 
+                        {
+                            margin:14px 0 0 0;
+                            .line-content 
+                            {
+                                height:0.73px;
+                            }
+                        }
+                        .line-margin 
+                        {
+                            margin:35px 0 0 0;
+                        }
+                        .text 
+                        {
+                            h4 
+                            {
+                                font-size:18px;
+                                margin:7.3px 0 0 0;
+                            }
+                        }
+                    }
+                }
+            }
+            .results-number 
+            {
+                h4 
+                {
+                    font-size:18px;
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:450px) and (max-width:767px)
+{
+    .results 
+    {
+        .results-content 
+        {
+            margin:73px 0 0 0;
+            width:92%;
+            .more 
+            {
+                margin:54px 0 0 0;
+                .button 
+                {
+                    border-radius:9px;
+                    height:40px;
+                    width:100px;
+                    .button-content 
+                    {
+                        h6 
+                        {
+                            margin:0 0 0 3.6px;
+                            top:0.73px;
+                        }
+                        img 
+                        {
+                            width:10px;
+                        }
+                    }
+                }
+            }
+            .projects 
+            {
+                grid-template-columns:auto;
+                margin:36px 0 0 0;
+                row-gap:12px;
+                .project 
+                {
+                    border:0.73px solid $project-line;
+                    .project-content 
+                    {
+                        margin:18px;
+                        width:100%;
+                        .icons-and-texts 
+                        {
+                            margin:14px 0 0 0;
+                            .country-icon-text 
+                            {
+                                float:right;
+                                .country-icon 
+                                {
+                                    img 
+                                    {
+                                        width:21px;
+                                    }
+                                }
+                                .country-text 
+                                {
+                                    margin:0 0 0 5.1px;
+                                }
+                            }
+                            .icon-and-text 
+                            {
+                                .icon 
+                                {
+                                    img 
+                                    {
+                                        width:23px;
+                                    }
+                                }
+                                .icon-text 
+                                {
+                                    margin:0 0 0 5.1px;
+                                }
+                            }
+                        }
+                        .line 
+                        {
+                            margin:14px 0 0 0;
+                            .line-content 
+                            {
+                                height:0.73px;
+                            }
+                        }
+                        .line-margin 
+                        {
+                            margin:35px 0 0 0;
+                        }
+                        .text 
+                        {
+                            h4 
+                            {
+                                font-size:18px;
+                                margin:7.3px 0 0 0;
+                            }
+                        }
+                    }
+                }
+            }
+            .results-number 
+            {
+                h4 
+                {
+                    font-size:18px;
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:769px) and (max-width:1199px)
+{
+    .results 
+    {
+        .results-content 
+        {
+            margin:81px 0 0 0;
+            width:92%;
+            .more 
+            {
+                margin:60px 0 0 0;
+                .button 
+                {
+                    border-radius:10px;
+                    height:40px;
+                    width:101px;
+                    .button-content 
+                    {
+                        h6 
+                        {
+                            margin:0 0 0 4px;
+                            top:0.81px;
+                        }
+                        img 
+                        {
+                            width:10px;
+                        }
+                    }
+                }
+            }
+            .projects 
+            {
+                grid-template-columns:auto;
+                margin:40px 0 0 0;
+                row-gap:12px;
+                .project 
+                {
+                    border:0.81px solid $project-line;
+                    .project-content 
+                    {
+                        margin:20px;
+                        width:100%;
+                        .icons-and-texts 
+                        {
+                            margin:16px 0 0 0;
+                            .country-icon-text 
+                            {
+                                padding:0 0 0 16px;
+                                .country-icon 
+                                {
+                                    img 
+                                    {
+                                        width:23px;
+                                    }
+                                }
+                                .country-text 
+                                {
+                                    margin:0 0 0 5.7px;
+                                }
+                            }
+                            .icon-and-text 
+                            {
+                                .icon 
+                                {
+                                    img 
+                                    {
+                                        width:26px;
+                                    }
+                                }
+                                .icon-text 
+                                {
+                                    margin:0 0 0 5.7px;
+                                }
+                            }
+                        }
+                        .line 
+                        {
+                            margin:16px 0 0 0;
+                            .line-content 
+                            {
+                                height:0.81px;
+                            }
+                        }
+                        .line-margin 
+                        {
+                            margin:39px 0 0 0;
+                        }
+                        .text 
+                        {
+                            h4 
+                            {
+                                font-size:20px;
+                                margin:8.1px 0 0 0;
+                            }
+                        }
+                    }
+                }
+            }
+            .results-number 
+            {
+                h4 
+                {
+                    font-size:20px;
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:1200px) and (max-width:1399px)
+{
+    .results 
+    {
+        .results-content 
+        {
+            margin:90px 0 0 0;
+            width:92%;
+            .more 
+            {
+                margin:67px 0 0 0;
+                .button 
+                {
+                    border-radius:11px;
+                    height:45px;
+                    width:112px;
+                    .button-content 
+                    {
+                        h6 
+                        {
+                            margin:0 0 0 4.5px;
+                            top:0.9px;
+                        }
+                        img 
+                        {
+                            width:11px;
+                        }
+                    }
+                }
+            }
+            .projects 
+            {
+                column-gap:13px;
+                margin:45px 0 0 0;
+                row-gap:13px;
+                .project 
+                {
+                    border:0.9px solid $project-line;
+                    .project-content 
+                    {
+                        margin:22px;
+                        .icons-and-texts 
+                        {
+                            margin:18px 0 0 0;
+                            .country-icon-text 
+                            {
+                                padding:0 0 0 18px;
+                                .country-icon 
+                                {
+                                    img 
+                                    {
+                                        width:26px;
+                                    }
+                                }
+                                .country-text 
+                                {
+                                    margin:0 0 0 6.3px;
+                                }
+                            }
+                            .icon-and-text 
+                            {
+                                .icon 
+                                {
+                                    img 
+                                    {
+                                        width:29px;
+                                    }
+                                }
+                                .icon-text 
+                                {
+                                    margin:0 0 0 6.3px;
+                                }
+                            }
+                        }
+                        .line 
+                        {
+                            margin:18px 0 0 0;
+                            .line-content 
+                            {
+                                height:0.9px;
+                            }
+                        }
+                        .line-margin 
+                        {
+                            margin:43px 0 0 0;
+                        }
+                        .text 
+                        {
+                            h4 
+                            {
+                                font-size:22px;
+                                margin:9px 0 0 0;
+                            }
+                        }
+                    }
+                }
+            }
+            .results-number 
+            {
+                h4 
+                {
+                    font-size:22px;
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:1400px) and (max-width:1424px)
+{
+    .results 
+    {
+        .results-content 
+        {
+            width:92%;
+        }
+    }
+}
+
+
+@media (min-width:1425px) and (max-width:1549px)
+{
+    .results 
+    {
+        .results-content 
+        {
+            width:84%;
+        }
+    }
+}
+
+
+@media (min-width:1550px) and (max-width:1749px)
+{
+    .results 
+    {
+        .results-content 
+        {
+            width:76%;
+        }
+    }
+}
+
+
+@media (min-width:1921px) and (max-width:2400px)
+{
+    .results 
+    {
+        .results-content 
+        {
+            margin:125px 0 0 0;
+            .more 
+            {
+                margin:93px 0 0 0;
+                .button 
+                {
+                    border-radius:15px;
+                    height:62px;
+                    width:156px;
+                    .button-content 
+                    {
+                        h6 
+                        {
+                            margin:0 0 0 6.2px;
+                            top:1.2px;
+                        }
+                        img 
+                        {
+                            width:15px;
+                        }
+                    }
+                }
+            }
+            .projects 
+            {
+                column-gap:18px;
+                margin:62px 0 0 0;
+                row-gap:18px;
+                .project 
+                {
+                    border:1.2px solid $project-line;
+                    .project-content 
+                    {
+                        margin:31px;
+                        .icons-and-texts 
+                        {
+                            margin:25px 0 0 0;
+                            .country-icon-text 
+                            {
+                                padding:0 0 0 25px;
+                                .country-icon 
+                                {
+                                    img 
+                                    {
+                                        width:36px;
+                                    }
+                                }
+                                .country-text 
+                                {
+                                    margin:0 0 0 8.7px;
+                                }
+                            }
+                            .icon-and-text 
+                            {
+                                .icon 
+                                {
+                                    img 
+                                    {
+                                        width:40px;
+                                    }
+                                }
+                                .icon-text 
+                                {
+                                    margin:0 0 0 8.7px;
+                                }
+                            }
+                        }
+                        .line 
+                        {
+                            margin:25px 0 0 0;
+                            .line-content 
+                            {
+                                height:1.2px;
+                            }
+                        }
+                        .line-margin 
+                        {
+                            margin:60px 0 0 0;
+                        }
+                        .text 
+                        {
+                            h4 
+                            {
+                                margin:12px 0 0 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:2401px) and (max-width:3000px)
+{
+    .results 
+    {
+        .results-content 
+        {
+            margin:156px 0 0 0;
+            .more 
+            {
+                margin:116px 0 0 0;
+                .button 
+                {
+                    border-radius:18px;
+                    height:77px;
+                    width:195px;
+                    .button-content 
+                    {
+                        h6 
+                        {
+                            margin:0 0 0 7.7px;
+                            top:1.5px;
+                        }
+                        img 
+                        {
+                            width:18px;
+                        }
+                    }
+                }
+            }
+            .projects 
+            {
+                column-gap:22px;
+                margin:77px 0 0 0;
+                row-gap:22px;
+                .project 
+                {
+                    border:1.5px solid $project-line;
+                    .project-content 
+                    {
+                        margin:38px;
+                        .icons-and-texts 
+                        {
+                            margin:31px 0 0 0;
+                            .country-icon-text 
+                            {
+                                padding:0 0 0 31px;
+                                .country-icon 
+                                {
+                                    img 
+                                    {
+                                        width:45px;
+                                    }
+                                }
+                                .country-text 
+                                {
+                                    margin:0 0 0 10.8px;
+                                }
+                            }
+                            .icon-and-text 
+                            {
+                                .icon 
+                                {
+                                    img 
+                                    {
+                                        width:50px;
+                                    }
+                                }
+                                .icon-text 
+                                {
+                                    margin:0 0 0 10.8px;
+                                }
+                            }
+                        }
+                        .line 
+                        {
+                            margin:31px 0 0 0;
+                            .line-content 
+                            {
+                                height:1.5px;
+                            }
+                        }
+                        .line-margin 
+                        {
+                            margin:75px 0 0 0;
+                        }
+                        .text 
+                        {
+                            h4 
+                            {
+                                margin:15px 0 0 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:3001px) and (max-width:3750px)
+{
+    .results 
+    {
+        .results-content 
+        {
+            margin:195px 0 0 0;
+            .more 
+            {
+                margin:145px 0 0 0;
+                .button 
+                {
+                    border-radius:22px;
+                    height:96px;
+                    width:243px;
+                    .button-content 
+                    {
+                        h6 
+                        {
+                            margin:0 0 0 9.6px;
+                            top:1.8px;
+                        }
+                        img 
+                        {
+                            width:22px;
+                        }
+                    }
+                }
+            }
+            .projects 
+            {
+                column-gap:27px;
+                margin:96px 0 0 0;
+                row-gap:27px;
+                .project 
+                {
+                    border:1.8px solid $project-line;
+                    .project-content 
+                    {
+                        margin:47px;
+                        .icons-and-texts 
+                        {
+                            margin:38px 0 0 0;
+                            .country-icon-text 
+                            {
+                                padding:0 0 0 38px;
+                                .country-icon 
+                                {
+                                    img 
+                                    {
+                                        width:56px;
+                                    }
+                                }
+                                .country-text 
+                                {
+                                    margin:0 0 0 13px;
+                                }
+                            }
+                            .icon-and-text 
+                            {
+                                .icon 
+                                {
+                                    img 
+                                    {
+                                        width:62px;
+                                    }
+                                }
+                                .icon-text 
+                                {
+                                    margin:0 0 0 13px;
+                                }
+                            }
+                        }
+                        .line 
+                        {
+                            margin:38px 0 0 0;
+                            .line-content 
+                            {
+                                height:1.8px;
+                            }
+                        }
+                        .line-margin 
+                        {
+                            margin:93px 0 0 0;
+                        }
+                        .text 
+                        {
+                            h4 
+                            {
+                                margin:18px 0 0 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:3751px)
+{
+    .results 
+    {
+        .results-content 
+        {
+            margin:243px 0 0 0;
+            .more 
+            {
+                margin:181px 0 0 0;
+                .button 
+                {
+                    border-radius:27px;
+                    height:120px;
+                    width:303px;
+                    .button-content 
+                    {
+                        h6 
+                        {
+                            margin:0 0 0 12px;
+                            top:2.2px;
+                        }
+                        img 
+                        {
+                            width:27px;
+                        }
+                    }
+                }
+            }
+            .projects 
+            {
+                column-gap:33px;
+                margin:120px 0 0 0;
+                row-gap:33px;
+                .project 
+                {
+                    border:2.2px solid $project-line;
+                    .project-content 
+                    {
+                        margin:58px;
+                        .icons-and-texts 
+                        {
+                            margin:47px 0 0 0;
+                            .country-icon-text 
+                            {
+                                padding:0 0 0 47px;
+                                .country-icon 
+                                {
+                                    img 
+                                    {
+                                        width:70px;
+                                    }
+                                }
+                                .country-text 
+                                {
+                                    margin:0 0 0 16px;
+                                }
+                            }
+                            .icon-and-text 
+                            {
+                                .icon 
+                                {
+                                    img 
+                                    {
+                                        width:77px;
+                                    }
+                                }
+                                .icon-text 
+                                {
+                                    margin:0 0 0 16px;
+                                }
+                            }
+                        }
+                        .line 
+                        {
+                            margin:47px 0 0 0;
+                            .line-content 
+                            {
+                                height:2.2px;
+                            }
+                        }
+                        .line-margin 
+                        {
+                            margin:116px 0 0 0;
+                        }
+                        .text 
+                        {
+                            h4 
+                            {
+                                margin:22px 0 0 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
